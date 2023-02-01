@@ -1,0 +1,213 @@
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header figure {
+  display: table;
+  padding: 5px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a:hover {
+  color: #f9faf8 ;
+}
+
+header img {
+  width: 8rem;
+  object-fit: cover;
+  display: block;
+}
+
+header figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+}
+
+.content,
+header {
+  width: 90%;
+}
+
+#background-header {
+  background-color: #1f2937;
+}
+
+header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7eb;
+}
+
+header nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0;
+}
+
+header li {
+  margin-left: 2rem;
+}
+
+#awesome-website {
+  background-color: #1f2937;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#awesome-website-content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#awesome-website h1 {
+  width: 50%;
+  margin: auto;
+  color: #f9faf8;
+  font-size: 3rem;
+  font-weight: "bold";
+}
+#awesome-website h3 {
+  width: 50%;
+  margin: auto;
+  color: #b4b5b8;
+  font-size: 1.1125rem;
+  font-weight: 400;
+}
+
+#awesome-website img {
+  width: 580px;
+  object-fit: cover;
+  margin-bottom: 3rem;
+  border: 1px solid;
+  border-radius: 8px;
+}
+
+#random-information {
+  background-color: white;
+}
+
+#random-information-content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#random-information-content ul {
+  list-style: none;
+  display: flex;
+}
+#random-information-content figure {
+  display: table;
+  padding: 5px;
+}
+
+#random-information-content img {
+  width: 10rem;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  display: block;
+}
+
+#random-information-content figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
+#inspiring-quote {
+  background-color: #e5e7eb;
+}
+
+#inspiring-quote-content {
+  margin: auto;
+  padding: 2.5rem;
+}
+
+#inspiring-quote-content figure {
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-style: italic;
+  width: 50%;
+  margin: auto;
+}
+
+#inspiring-quote-content figcaption {
+  text-align: right;
+}
+
+#call-to-action {
+  width: 70%;
+  margin: 3rem auto;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid;
+  border-radius: 8px;
+}
+
+#call-to-action-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#call-to-action-content button {
+  height: 1.5rem;
+  background-color: inherit;
+  color: #e5e7eb;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: #e5e7eb;
+  padding: 2px 15px;
+  font-family: inherit;
+}
+
+#call-to-action-content button:hover {
+  height: 1.5rem;
+  background-color: #1451c2;
+  color: #e5e7eb;
+  border: 2px solid;
+  border-radius: 3px;
+  border-color: #e5e7eb;
+  padding: 2px 15px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+#call-to-action-content h4 {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+#call-to-action-content p {
+  margin-top: 2px;
+  font-weight: 100;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+#footer-content {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  color: #e5e7eb;
+}
